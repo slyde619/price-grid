@@ -17,7 +17,7 @@ To use this component, follow these steps:
 
 1. Clone the repository:
     ```git
-    git clone https://github.com/slyde619/
+    git clone https://github.com/slyde619/price-grid
     ```
 2. Navigate to the project directory
    ```bash
@@ -27,4 +27,4 @@ To use this component, follow these steps:
 
 ### Acknowledgements
 - Frontendmentor
-- Web3schools
+- Web3Bridge
