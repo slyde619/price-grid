@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Example</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            /* gap: 20px; */
+            padding: 20px;
+        }
+        .top {
+            grid-column: 1 / -1;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .bottom-left, .bottom-right {
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">Top content</div>
+        <div class="bottom-left">Bottom Left content</div>
+        <div class="bottom-right">Bottom Right content</div>
+    </div>
+</body>
+</html>
