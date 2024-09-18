@@ -25,6 +25,10 @@ To use this component, follow these steps:
    ```
 3. Open the ```index.html``` file.
 
+#### **Project Link**
+
+You can preview the live project here: [https://price-gridder.netlify.app/]
+
 ### Acknowledgements
 - Frontendmentor
 - Web3Bridge
